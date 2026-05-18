@@ -78,7 +78,14 @@ El analizador va a mostrar en la terminal:
 - Árbol de derivación en formato de texto
 - Traducción a JavaScript
 
-Para observar el árbol de derivación de formato gráfico solo presione la tecla F5.
+### 5 — Árbol de derivación gráfico
+Si usted desea observar las derivaciones de la entrada de la gramática en forma gráfica, siga los siguientes pasos: <br>
+1) Abra al archivo "RodAnalizador.g4" del menú encontrado en la parte lateral izquierda en VS Code <br>
+``
+En caso de que usted ya se encuentre en dicho archivo, vuélvalo a abrir.
+``
+Esto con la finalidad de poder activar el plugin de ANTLR4 correctamente
+2) Presione la tecla F5
 
 ## Detalles
 En el repositorio se encuentran algunos ejemplos de inputs (entradas) que usted puede probar en el analizador.
