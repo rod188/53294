@@ -10,6 +10,8 @@ Antes de ejecutar el proyecto, se debe de tener instalado:
 - [Java](https://www.java.com/) (necesario para ANTLR4)
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/download)
+- [Plugin ANTLR4](https://marketplace.visualstudio.com/items?itemName=mike-lischke.vscode-antlr4) 
+  instalado en VS Code (para visualizar el árbol gráficamente)
 
 ## Clonación del repositorio
 
@@ -37,7 +39,17 @@ Esto con el objetivo de ejecutar el comando "npm start" sin errores.
 
 ## Uso
 
-### 1 — Escribir la entrada
+### 1 — Abrir Visual Studio Code con CMD
+
+Luego de haber instalado las dependencias, ejecute el siguiente comando dentro de la carpeta `MiAnalizador`:
+
+```bash
+code .
+```
+Lo que hará esto es abrir el VS Code de forma automática, viéndose todos los archivos del analizador. <br>
+Sí el VS Code pide permisos por la confianza del proyecto, usted seleccione "Sí/Yes".
+
+### 2 — Escribir la entrada
 
 Para analizar una entrada, se debe de editar el archivo `input.txt` con el código que se desee analizar. <br>
 Por ejemplo:
@@ -47,20 +59,26 @@ crear([10, 20, 30])!
 empujar(40)!
 }
 ```
-### 2 — Ejecutar el analizador
+Presione Ctrl+S para guardar los cambios en el archivo .txt, de lo contrario el analizador puede no detectar la entrada correctamente.
+
+### 3 — Ejecutar el analizador
+Abra una nueva terminal con el comando "Ctrl + ñ", o ábrala siguiendo la siguiente ruta: <br>
+Del menú superior: Terminal > New Terminal. <br>
+Ya en la terminal ejecute el siguiente comando:
 
 ```bash
 npm start
 ```
 
-### 3 — Resultado esperado
+### 4 — Resultado esperado
 
 El analizador va a mostrar en la terminal:
 - Tabla de lexemas y tokens
 - Si el código es válido o contiene errores
+- Árbol de derivación en formato de texto
 - Traducción a JavaScript
 
-Para observar el árbol de derivación solo presione la tecla F5 para la formación del mismo con la entrada
+Para observar el árbol de derivación de formato gráfico solo presione la tecla F5.
 
 ## Detalles
 En el repositorio se encuentran algunos ejemplos de inputs (entradas) que usted puede probar en el analizador.
