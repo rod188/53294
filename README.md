@@ -59,3 +59,6 @@ El analizador va a mostrar en la terminal:
 - Traducción a JavaScript
 
 Para observar el árbol de derivación solo presione la tecla F5 para la formación del mismo con la entrada
+
+## Detalles
+En el repositorio se encuentran algunos ejemplos de inputs (entradas) que usted puede probar en el analizador.
