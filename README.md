@@ -25,13 +25,15 @@ git clone https://github.com/rod188/53294.git
 cd 53294/MiAnalizador
 ```
 
-## Instalación
+## Instalación de dependencias
 
 Una vez dentro de la carpeta `MiAnalizador`, se deben instalar las dependencias:
 
 ```bash
 npm install
 ```
+Es importante realizar este proceso para la recreación de la carpeta "node_modules" que contiene la librería de ANTLR4.<br>
+Esto con el objetivo de ejecutar el comando "npm start" sin errores.
 
 ## Uso
 
