@@ -1,0 +1,7 @@
+pila Comandos {
+    crear([1, 2, 3])!
+    empujar(4)!
+    mirar()!
+    sacar()!
+    empujar(99)!
+}
