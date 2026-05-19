@@ -83,7 +83,7 @@ Si usted desea observar las derivaciones de la entrada de la gramática en forma
 1) Abra al archivo "RodAnalizador.g4" del menú encontrado en la parte lateral izquierda en VS Code <br>
 ``
 En caso de que usted ya se encuentre en dicho archivo, vuélvalo a abrir.
-``
+``<br>
 Esto con la finalidad de poder activar el plugin de ANTLR4 correctamente
 2) Presione la tecla F5
 
